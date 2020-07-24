@@ -225,13 +225,18 @@ body{
 }
 
 
-@media(max-width: 600px) {
+@media(max-width: 470px) {
 .mentors-grid {
 	display: block;
    }
 
+.mentors-grid > div {
+	margin-bottom: 100px;
+}
+
 .mentor {
-	margin-bottom: 45px;
+	max-width: 270px;
+	max-height: 270px;
 }
 
 .header-content {
@@ -253,6 +258,5 @@ body{
 .banner-img {
 	border-radius: 100%;
 }
-
 
 }
