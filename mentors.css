@@ -80,8 +80,9 @@ body{
 }
 
 .arrow1 {
-	top: -50%;
-	left: 0;
+	/*top: 27%;
+	left: -27%;*/
+	display: none;
 }
 
 .arrow1, .arrow2 {
@@ -91,8 +92,9 @@ body{
 }
 
 .arrow2 {
-	top: -50%;
-	right: 0;
+	/*top: 25%;
+	right: -35%;*/
+	display: none;
 }
 
 .desc-text {
@@ -120,7 +122,7 @@ body{
 /*---------------------------------*/
 
 .mentors-container {
-	max-width: 80%;
+	max-width: 90%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -149,7 +151,7 @@ body{
 .mentors-grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-column-gap: 45px;	
+	grid-column-gap: 55px;	
 	grid-row-gap: 60px;
 	margin: 0 auto;	
 }
@@ -159,9 +161,10 @@ body{
 }
 
 .mentor {
-	max-width: 370px;
-	max-height: 370px;
+	max-width: 330px;
+	max-height: 330px;
 	padding: 10px;
+	margin-bottom: 60px;
 }
 
 .mentor10 {
@@ -202,7 +205,6 @@ body{
 	grid-column-gap: 65px;
   }
 
-
  .header-text p {
 	font-size: 27px;
 }
@@ -242,13 +244,13 @@ body{
 
 .sec1 {
 	position: absolute;
-	top: 18%;
-	left: 4%;
-	/*transform: translate(2%,-18%);*/
+	top: 5%;
+	left: 15%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
+	margin-bottom: 6em;
 }
 
 
@@ -262,33 +264,20 @@ body{
 }
 
 .mentors-container {
-	margin-top: 13em;
 	max-width: 100%;
-	padding: 0 15px;
-}
-
-
-.arrow2 {
-	visibility: hidden;
-}
-
-.arrow1 {
-	visibility: hidden;
+	padding-right: 0 15px;
 }
 
 }
 
 
 @media(max-width: 780px){
-.sec1 {
-	position: relative;
-}
+
 
 .header-content {
-	top: 25%;
+	top: 5%;
 	bottom: 25%;
 	left: 21%;
-	right: 29%;
 
 }
 
@@ -299,14 +288,31 @@ body{
 }
 
 
-@media(max-width: 700px) {
+@media(max-width: 740px) {
+
+.header-content {
+	top: 25%;
+
+}
+
+.sec1 {
+	position: relative;
+	left:0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	margin-bottom: 0;
+}
+
+
 .mentors-grid {
 	display: block;
    }
 
 
 .mentors-grid > div {
-	margin-bottom: 8em;
+	margin-bottom: 7em;
 }
 
 .ment-title {
@@ -338,6 +344,7 @@ body{
 }
 
 @media (max-width: 583px) {
+
 .header-content {
 	top: 18%;
 	bottom: 32%;
@@ -349,11 +356,14 @@ body{
 
 @media (max-width: 400px) {
 .header-content {
-	top: 0;
+	top: 3%;
 	bottom: 50%;
 
 }
 
+.header-text {
+	width: 100%;
+}
 
 .header-content p{
 	font-size: 20px;
@@ -369,7 +379,7 @@ body{
 }
 
 .ment-title h2 {
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .mentors-container {
