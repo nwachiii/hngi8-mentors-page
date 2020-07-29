@@ -11,23 +11,21 @@ font-family: 'Poppins', sans-serif; */
 
 	box-sizing: border-box;
 
-	font-family: 'Poppins', sans-serif;
-
-	font-style: normal;
-
-	overflow-x: hidden;
-
 }
 
 
 
 body{
 
+	font-family: 'Poppins', sans-serif;
+
+	font-style: normal;
+
 	margin: 0;
 
 	padding: 0;
 
-	max-width: 100%;
+	width: 100%;
 
 	background-color: #FFFFFF;
 
@@ -276,7 +274,7 @@ body{
 
 	width: 100px;
 
-	bottom: 12%;
+	bottom: 0.5%;
 
 }
 
@@ -355,8 +353,6 @@ body{
 	line-height: 35px;
 
 	color: #000000;
-
-	margin-top: -1em;
 
 }
 
@@ -512,7 +508,7 @@ body{
 
 	max-height: 270px;
 
-	margin-bottom: 9em;
+	margin-bottom: 7em;
 }
 
 }
